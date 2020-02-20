@@ -1,0 +1,6 @@
+h1 { color: green; }
+
+// app/javascript/stylesheets/application.scss
+@import "~bootstrap/scss/bootstrap"; // never forget the semicolon
+@import "./_custom";
+@import "stylesheets/home";
